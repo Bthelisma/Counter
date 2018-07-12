@@ -1,0 +1,34 @@
+* {
+    margin: auto;
+}
+
+.wrapper {
+    width: 1000px;
+}
+
+.counter {
+    margin-top: 20px;
+    padding-top: 40px;
+    text-align: center;
+    width: inherit;
+    border-style: double;
+    height: 200px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+input {
+    width: 50px;
+}
+
+.double {
+    background-color: rgb(5, 255, 5);
+    width: 100px;
+}
+
+.delete {
+    background-color: red;
+    width: 100px;
+}

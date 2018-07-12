@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class='wrapper'>
+
+
+        <div class='counter'>
+
+            <h1>Counter:
+                <%= count %> times</h1>
+            <form action='/one' method='post'>
+                <input class='one' type='submit' value='+1'>
+            </form>
+
+            <form action='/double' method='post'>
+                <input class='double' type='submit' value='+2'>
+            </form>
+
+            <form action='/delete' method='post'>
+                <input class='delete' type='submit' value='clear'>
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
